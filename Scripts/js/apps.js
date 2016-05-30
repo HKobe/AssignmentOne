@@ -3,11 +3,13 @@
   //this defines an array of HTML Elements
   
 var Pararray = [];
+/*Index.html */
  Pararray[0] = document.getElementById("bio");
-;
+ /*About.html */
  Pararray[2] = document.getElementById("about");
  Pararray[3] = document.getElementById("mission-statement");
  Pararray[4] = document.getElementById("SnapChat");
+ /*Contact.html */
  Pararray[5] = document.getElementById("Contact");
 
 /*Projects.html*/
@@ -22,10 +24,13 @@ var Pararray = [];
  //defines your paragraph array
   var paragraphs = [];
   //The data for my pages
-  paragraphs [0] = "My Mission statement? I'd say to learn how to properly use chopsticks and code.";
+  /*Index.html*/
+  paragraphs [0] = "";
+  /*About.html*/
   paragraphs [2] = "My full  name is Hassan Ghassan Kobeissi. I'm Lebanese but a born Canadian. My favourite sports to play is Soccer, Rugby, Kick Boxing and eating all sorts of fast foods.";
   paragraphs [3] = "My current Mission statement? I'd say to learn how to properly use chopsticks and code C#, and Javascript. Long term achievements are to travel for the first timeand win the Muay Thai lightweight championship.";
   paragraphs [4] = "A logo is something that well defines you. It's your calling and what best represents your life. I chose SnapChat as my logo because i live life with memorable moments that are worth sharing.";
+  /*Contact.html*/
   paragraphs [5] = "Please enter your information here and if one day i learn how to make the submit button work, i'll  get back to you.";  
   /*Projects.html*/ 
   paragraphs [1] = "Assignment One";
